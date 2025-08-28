@@ -1,0 +1,10 @@
+---
+title: "Practica 1"
+author: "Diana"
+date: "last compiled on (r format(Sys.time(), '%Y-%b-%d, %I:%M %p')`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
