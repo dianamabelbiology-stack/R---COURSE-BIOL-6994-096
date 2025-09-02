@@ -1,7 +1,7 @@
 ---
 title: "Practica 1"
 author: "Diana Marcela Beltrán Pedroza"
-date: 
+date: "`r format(Sys.time(), '%Y-%b-%d, %I:%M %p')`"
 output:
   prettydoc::html_pretty:
     theme: cayman
