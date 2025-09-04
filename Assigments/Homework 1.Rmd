@@ -1,0 +1,8 @@
+---
+title: "Homework1"
+author: "Diana Marcela Beltrán Pedroza"
+date: "2025-09-04"
+output: html_document
+---
+
+

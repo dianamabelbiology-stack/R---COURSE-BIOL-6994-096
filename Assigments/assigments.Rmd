@@ -10,12 +10,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-citation()
+citation(ggplot2)
 ```
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
 
 ```{r}
 install.packages("ggplot2")
-install.packages("dply")
+install.packages("dplyr")
 ```
 
 ## R Markdown
@@ -37,3 +42,48 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+?lm
+```
+```{r}
+?ggplot
+```
+```{r}
+1 == 2
+```
+```{r}
+"Diana" == "Diana"
+```
+
+```{r}
+"Diana" == "diana"
+```
+```{r}
+5 != 6
+```
+
+```{r}
+a <-  45
+a
+```
+
+45 -> b
+```
+
+c 
+```{r}
+
+```
+
+"R my_obj1
+my_obj1
+
+
+## R Tutorials Prompts:
+### [Homework1]
+
+
+```
+
+
