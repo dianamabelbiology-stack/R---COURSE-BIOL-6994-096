@@ -57,7 +57,7 @@ Laboratories*
 
 ## Assigments
 
-### [Homework 1](C:/Users/admin/Desktop/Proyecto R/R---COURSE-BIOL-6994-096/Assigments/Homework-1.html)
+### [Homework 1](Assigments/Homework-1.html)
 
 
 
