@@ -10,3 +10,8 @@ Altura
 Altura <- 175
 Altura
 ```
+
+```{r}
+25 * 4 - 10
+```
+
