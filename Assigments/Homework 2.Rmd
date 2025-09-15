@@ -153,3 +153,15 @@ subset(df1, Age > 20 & BMI < 15)
     3    c  23  10   Spain 
     4    d  67  11 England
     
+    
+**Q10**
+
+mean(df1$Age)
+
+     [1] 34
+     
+print(mean(df1$Age))
+     
+**fin**
+     
+
