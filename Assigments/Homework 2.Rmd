@@ -5,3 +5,5 @@ date: "2025-09-15"
 output: html_document
 ---
 
+BOD_df <- as.data.frame(BOD)# BOD (Biochemical Oxygen Demand) is pre-defined Vector in R.
+BOD_df
