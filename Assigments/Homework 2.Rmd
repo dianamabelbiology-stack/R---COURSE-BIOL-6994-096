@@ -11,13 +11,13 @@ BOD_df <- as.data.frame(BOD)# BOD (Biochemical Oxygen Demand) is pre-defined Vec
 BOD_df
 
 
-      | Time  | demand |
-    1 |    1  |    8.3 |
-    2 |    2  |   10.3 |
-    3 |    3  |   19.0 |
-    4 |    4  |   16.0 | 
-    5 |    5  |   15.5 |
-    6 |    7  |   19.8 |
+        Time    demand  
+    1      1       8.3 
+    2      2      10.3 
+    3      3      19.0 
+    4      4      16.0  
+    5      5      15.5 
+    6      7      19.8 
 
 **Q2**
 
@@ -28,8 +28,8 @@ df1=data.frame(
  "Country"=c("Malaysia","India","Spain","England"))
 print(df1)
 
-        |Name | Age | BMI | Country |
-      1 |   a |  12 |  22 | Malasia | 
+         Name   Age   BMI   Country   
+      1     a    12    22   Malasia   
       2     b    34    12    India
       3     c    23    10    Spain 
       4     d    67    11   England 
@@ -45,4 +45,18 @@ df=data.frame(
   
 names(df)<-c("Name", "Age", "Gender","Country" )
 print(df)
+
+            Name  Age   Gender    Country 
+      1     Raju   12        M    Malaysia
+      2    Kumar   34        M       India 
+      3  Chandru   23        M       Spain 
+      4   Deepak   67        M     England 
+      5    Raina   23        M    Malaysia 
+      6    Dhoni   43        M    Malaysia
+      7     Hema   23        F       India
+      8  Vandana   38        F       Egypt 
+      9     Bela   34        F       Italy 
+      10   Anand   12        M        Peru
+      
+class(df)
 

@@ -361,19 +361,19 @@ display: none;
 <p>BOD_df &lt;- as.data.frame(BOD)# BOD (Biochemical Oxygen Demand) is
 pre-defined Vector in R.</p>
 <p>BOD_df</p>
-<pre><code>  | Time  | demand |
-1 |    1  |    8.3 |
-2 |    2  |   10.3 |
-3 |    3  |   19.0 |
-4 |    4  |   16.0 | 
-5 |    5  |   15.5 |
-6 |    7  |   19.8 |</code></pre>
+<pre><code>    Time    demand  
+1      1       8.3 
+2      2      10.3 
+3      3      19.0 
+4      4      16.0  
+5      5      15.5 
+6      7      19.8 </code></pre>
 <p><strong>Q2</strong></p>
 <p>df1=data.frame( “Name”=c(“a”,“b”,“c”,“d”), “Age”=c(12,34,23,67),
 “BMI”=c(22,12,10,11), “Country”=c(“Malaysia”,“India”,“Spain”,“England”))
 print(df1)</p>
-<pre><code>    |Name | Age | BMI | Country |
-  1 |   a |  12 |  22 | Malasia | 
+<pre><code>     Name   Age   BMI   Country   
+  1     a    12    22   Malasia   
   2     b    34    12    India
   3     c    23    10    Spain 
   4     d    67    11   England </code></pre>
@@ -386,6 +386,19 @@ C=c(“M”,“M”,“M”,“M”,“M”,“M”,“F”,“F”,“F”,“M
 D=c(“Malaysia”,“India”,“Spain”,“England”, “Malaysia”, “Malaysia”,
 “India”, “Egypt”, “Italy”, “Peru”))</p>
 <p>names(df)&lt;-c(“Name”, “Age”, “Gender”,“Country” ) print(df)</p>
+<pre><code>        Name  Age   Gender    Country 
+  1     Raju   12        M    Malaysia
+  2    Kumar   34        M       India 
+  3  Chandru   23        M       Spain 
+  4   Deepak   67        M     England 
+  5    Raina   23        M    Malaysia 
+  6    Dhoni   43        M    Malaysia
+  7     Hema   23        F       India
+  8  Vandana   38        F       Egypt 
+  9     Bela   34        F       Italy 
+  10   Anand   12        M        Peru
+  </code></pre>
+<p>class(df)</p>
 
 
 
