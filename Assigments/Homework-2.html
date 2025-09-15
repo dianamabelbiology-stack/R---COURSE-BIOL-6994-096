@@ -399,6 +399,46 @@ D=c(“Malaysia”,“India”,“Spain”,“England”, “Malaysia”, “Mal
   10   Anand   12        M        Peru
   </code></pre>
 <p>class(df)</p>
+<p><strong>Q4</strong></p>
+<p>subset&lt;- df[ , 1:2]</p>
+<p>subset</p>
+<p><strong>Q5</strong></p>
+<p>df[order(df$Age), ]</p>
+<pre><code>      Name Age Gender  Country 
+1     Raju  12      M Malaysia 
+10   Anand  12      M     Peru 
+3  Chandru  23      M    Spain 
+5    Raina  23      M Malaysia 
+7     Hema  23      F    India 
+2    Kumar  34      M    India 
+9     Bela  34      F    Italy 
+8  Vandana  38      F    Egypt 
+6    Dhoni  43      M Malaysia 
+4   Deepak  67      M  England</code></pre>
+<p><strong>Q6</strong></p>
+<p>df$Score &lt;- c(85, 90, 78, 88, 90, 92, 80, 90, 87, 100) df</p>
+<pre><code>        Name Age Gender  Country Score 
+  1     Raju  12      M Malaysia    85 
+  2    Kumar  34      M    India    90 
+  3  Chandru  23      M    Spain    78 
+  4   Deepak  67      M  England    88  
+  5    Raina  23      M Malaysia    90  
+  6    Dhoni  43      M Malaysia    92 
+  7     Hema  23      F    India    80 
+  8  Vandana  38      F    Egypt    90 
+  9     Bela  34      F    Italy    87 
+  10   Anand  12      M     Peru   100
+  
+  </code></pre>
+<p><strong>Q7</strong></p>
+<p>subset(df, Age &gt; 30)</p>
+<pre><code>     Name Age Gender  Country Score 
+2   Kumar  34      M    India    90 
+4  Deepak  67      M  England    88 
+6   Dhoni  43      M Malaysia    92 
+8 Vandana  38      F    Egypt    90 
+9    Bela  34      F    Italy    87</code></pre>
+<p>subset</p>
 
 
 
