@@ -10,3 +10,12 @@ BOD_df <- as.data.frame(BOD)# BOD (Biochemical Oxygen Demand) is pre-defined Vec
 
 BOD_df
 
+
+      | Time  | demand |
+    1 |    1  |    8.3 |
+    2 |    2  |   10.3 |
+    3 |    3  |   19.0 |
+    4 |    4  |   16.0 | 
+    5 |    5  |   15.5 |
+    6 |    7  |   19.8 |
+
