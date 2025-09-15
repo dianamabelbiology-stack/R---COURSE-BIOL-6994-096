@@ -141,3 +141,15 @@ df
      8             Egypt    90 
      9             Italy    87 
      10             Peru   100
+
+print(df)
+
+**Q9**
+
+subset(df1, Age > 20 & BMI < 15)
+
+      Name Age BMI Country 
+    2    b  34  12   India 
+    3    c  23  10   Spain 
+    4    d  67  11 England
+    
