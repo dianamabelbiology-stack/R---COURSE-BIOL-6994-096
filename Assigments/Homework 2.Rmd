@@ -19,3 +19,30 @@ BOD_df
     5 |    5  |   15.5 |
     6 |    7  |   19.8 |
 
+**Q2**
+
+df1=data.frame(
+ "Name"=c("a","b","c","d"),
+ "Age"=c(12,34,23,67), 
+ "BMI"=c(22,12,10,11),
+ "Country"=c("Malaysia","India","Spain","England"))
+print(df1)
+
+        |Name | Age | BMI | Country |
+      1 |   a |  12 |  22 | Malasia | 
+      2     b    34    12    India
+      3     c    23    10    Spain 
+      4     d    67    11   England 
+class(df1)
+
+**Q3**
+
+df=data.frame(
+  A=c("Raju","Kumar","Chandru","Deepak","Raina", "Dhoni", "Hema", "Vandana", "Bela","Anand" ),
+  B=c(12,34,23,67,23,43,23,38,34,12),
+  C=c("M","M","M","M","M","M","F","F","F","M"),
+  D=c("Malaysia","India","Spain","England", "Malaysia", "Malaysia", "India", "Egypt", "Italy", "Peru"))
+  
+names(df)<-c("Name", "Age", "Gender","Country" )
+print(df)
+
