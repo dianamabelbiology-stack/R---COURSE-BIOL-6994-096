@@ -110,3 +110,19 @@ head(gapminder, 6)
     6 Hong Kong, … Asia       2002    81.5
     
 **Q7** 
+
+gapminder %>% 
+select(year, lifeExp)
+
+       year lifeExp
+       <int>   <dbl> 
+    1  1952    28.8 
+    2  1957    30.3 
+    3  1962    32.0 
+    4  1967    34.0 
+    5  1972    36.1 
+    6  1977    38.4
+    
+**Q8** 
+
+
