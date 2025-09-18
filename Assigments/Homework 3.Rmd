@@ -5,4 +5,26 @@ date: "2025-09-18"
 output: html_document
 ---
 
+install.packages("gapminder")
+
+install.packages("dplyr")
+
+library(dplyr)
+
+library(gapminder)
+
+data(gapminder)
+head(gapminder)
+
+      country     continent  year lifeExp 
+      <fct>       <fct>     <int>   <dbl> 
+    1 Afghanistan Asia       1952    28.8 
+    2 Afghanistan Asia       1957    30.3 
+    3 Afghanistan Asia       1962    32.0 
+    4 Afghanistan Asia       1967    34.0 
+    5 Afghanistan Asia       1972    36.1 
+    6 Afghanistan Asia       1977    38.4 
+    
+
+
 
