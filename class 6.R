@@ -97,5 +97,31 @@ starwars %>%
                             "small")) %>% 
   select(height, heigth_cat, everything())
 
+library(ggplot2)
+
+starwars %>% 
+  mutate(height_cat = ifelse(height > 100,
+                            "tall", "small")) %>% 
+    ggplot(aes(x=height, fill= height_cat )) + 
+  geom_histogram() +
+  labs(x='height', y='cm')
+
+starwars %>%  
+  summarise(mean = mean(height, na.rm = TRUE) ,
+            min= min(height, na.rm=TRUE) ,
+            max= max(height, na.rm= TRUE) ,
+            sd= sd(height, na.rm=TRUE))
 
 
+starwars %>% 
+  group_by(species) %>% 
+  summarise( 
+    mean= mean(mass, na.rm = TRUE) , 
+    sd= sd(mass, na.rm=TRUE))
+
+starwars %>% 
+  group_by(species) %>% 
+  count(homeworld)
+
+starwars_new <- starwars %>% 
+  
