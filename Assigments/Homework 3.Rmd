@@ -25,6 +25,11 @@ head(gapminder)
     5 Afghanistan Asia       1972    36.1 
     6 Afghanistan Asia       1977    38.4 
     
+**Q1**
 
+class(gapminder)
 
-
+    [1] "tbl_df"     "tbl" 
+    [3] "data.frame"
+    
+    
