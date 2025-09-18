@@ -123,5 +123,7 @@ starwars %>%
   group_by(species) %>% 
   count(homeworld)
 
-starwars_new <- starwars %>% 
+starwars_new <- starwars %>%
+  
+starwars %>% 
   
