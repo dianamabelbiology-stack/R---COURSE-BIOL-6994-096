@@ -32,4 +32,14 @@ class(gapminder)
     [1] "tbl_df"     "tbl" 
     [3] "data.frame"
     
-    
+
+**Q2**
+
+gapminder %>% 
+  filter(lifeExp < 29)
+  
+  
+
+
+
+
