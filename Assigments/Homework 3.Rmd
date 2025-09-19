@@ -1,7 +1,7 @@
 ---
 title: "Homework 3"
 author: "Diana Marcela Beltrán Pedroza"
-date: "2025-09-18"
+date: "`r format(Sys.time(), '%Y-%b-%d, %I:%M %p')`"
 output: html_document
 ---
 
