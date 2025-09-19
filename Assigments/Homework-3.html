@@ -457,6 +457,21 @@ lifeExp)</p>
 4 Algeria Africa     1967    51.4 
 5 Algeria Africa     1972    54.5 
 6 Algeria Africa     1977    58.0</code></pre>
+<p><strong>Q10</strong></p>
+<p>gapminder &lt;- gapminder %&gt;% mutate(lifeExp_months = lifeExp *
+12)</p>
+<pre><code>  country     continent  year lifeExp      pop gdpPercap lifeExp_months
+  &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;          &lt;dbl&gt; 
+1 Afghanistan Asia       1952    28.8  8425333      779.           346.
+2 Afghanistan Asia       1957    30.3  9240934      821.           364.
+3 Afghanistan Asia       1962    32.0 10267083      853.           384.
+4 Afghanistan Asia       1967    34.0 11537966      836.           408.
+5 Afghanistan Asia       1972    36.1 13079460      740.           433.
+6 Afghanistan Asia       1977    38.4 14880372      786.           461.
+7 Afghanistan Asia       1982    39.9 12881816      978.           478. 
+8 Afghanistan Asia       1987    40.8 13867957      852.           490.
+9 Afghanistan Asia       1992    41.7 16317921      649.           500. </code></pre>
+<p><strong>fin</strong></p>
 
 
 
