@@ -1,0 +1,19 @@
+---
+title: "Cereales"
+author: "Diana Marcela Beltrán Pedroza"
+date: "2025-09-30"
+output: html_document
+---
+
+
+```{r}
+library(readx1)
+library(dplyr)
+
+```
+```{r}
+cereal <- read_excel("cereal.xlsx)
+head(cereal)
+```
+
+
