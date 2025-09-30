@@ -7,13 +7,22 @@ output: html_document
 
 
 ```{r}
-library(readx1)
+# install.packages("readxl")
+library(readxl)
 library(dplyr)
 
 ```
 ```{r}
-cereal <- read_excel("cereal.xlsx)
+cereal <- read_excel("cereal.xlsx")
 head(cereal)
+
+
+```
+**Q1**
+
+```{r}
+cereal[1:10, ]
+
 ```
 
 
