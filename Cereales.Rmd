@@ -2,7 +2,7 @@
 title: "Cereales"
 author: "Diana Marcela Beltrán Pedroza"
 date: "2025-09-30"
-output: html_document
+output: pdf_document
 ---
 
 
@@ -27,7 +27,28 @@ cereal[1:10, ]
 **Q2**
 
 ```{r}
+# data frane
+
+Kelloggs <- cereal[cereal$company == "K",]
+head(Kelloggs)
 
 ```
+**Q3**
 
+```{r}
+
+cereal[cereal$sugars > 10, "name"]
+```
+ **Q4**
+ 
+```{r}
+
+mean(cereal$calories)
+```
+ **Q5**
+ 
+```{r}
+subset(cereal, fiber >= 2)
+```
+ 
 
