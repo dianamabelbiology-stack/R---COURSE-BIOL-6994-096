@@ -18,7 +18,7 @@ head(cereal)
 
 
 ```
-**Q1**
+**Q1 Extract rows 1 to 10 from the cereal data frame. (Extraiga las filas 1 a 10 del marco de datos cereal.)**
 
 ```{r}
 cereal[1:10, ]
@@ -51,4 +51,29 @@ mean(cereal$calories)
 subset(cereal, fiber >= 2)
 ```
  
+ **New practice **
+ 
+```{r message=FALSE, warning=FALSE, paged.print=TRUE}
+EquationCitations <- read.csv("EquationCitations.csv")
+head(EquationCitations)
+```
+ 
+ **Q1 On average, how many equations per article are published in each journal? (Hint: use group_by() and summarise())** 
+ 
+```{r}
+EquationCitations %>% 
+  group_by(journal)%>%
+  summarize(promedio = mean(equations))
+```
+ 
+ 
+**Q2 For each journal, calculate the average proportion of theoretical citations relative to total citations. (Hint: create a new column with mutate(theo_ratio = theocites / cites), then group_by() and summarise())**
+## Para cada revista, calcule la proporción promedio de citas teóricas respecto al total de citas. (Sugerencia: cree una nueva columna con mutate(theo_ratio = theocites / cites), luego group_by() y summarise())
+
+```{r}
+EquationCitations %>%
+  mutate(theo_ratio = theocites / cites) %>% 
+  group_by(journal) %>% 
+  summarise(citaspromedio = mean(theo_ratio))
+```
 
