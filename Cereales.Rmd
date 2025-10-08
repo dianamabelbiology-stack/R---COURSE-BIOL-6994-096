@@ -61,8 +61,8 @@ head(EquationCitations)
  **Q1 On average, how many equations per article are published in each journal? (Hint: use group_by() and summarise())** 
  
 ```{r}
-EquationCitations %>% 
-  group_by(journal)%>%
+EquationCitations %>%
+  group_by (journal) %>%
   summarize(promedio = mean(equations))
 ```
  
