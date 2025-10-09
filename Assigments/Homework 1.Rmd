@@ -4,7 +4,7 @@ author: "Diana Marcela Beltrán Pedroza"
 date: "2025-09-04"
 output: html_document
 ---
-
+**Q1. Create an object called height with the value 175. Print it. (Crea un objeto llamado height con el valor 175. Muéstralo en pantalla.)**
 
 ```{r}
 Altura <- 175
