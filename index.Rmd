@@ -65,7 +65,9 @@ Laboratories*
 
 ### [Homework 3](Assigments\Homework-3.html)
 
-### [practica en clase](Cereales.html)
+### [practica en clase](Assigments/Cereales.html)
+
+### [test](Assigments/test.html)
 
 ## Ensayo de hoy 
 
